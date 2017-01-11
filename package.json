@@ -2,7 +2,7 @@
   "name": "electron-slack-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
@@ -10,6 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.4.14"
+    "@types/electron": "^1.4.31",
+    "electron-prebuilt-compile": "^1.4.14"
   }
 }

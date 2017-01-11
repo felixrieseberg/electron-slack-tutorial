@@ -1,6 +1,6 @@
-const {BrowserWindow, app} = require('electron')
+import {BrowserWindow, app} from 'electron'
 
-let appWindow
+let appWindow: Electron.BrowserWindow
 
 app.on('ready', () => {
   appWindow = new BrowserWindow({ width: 1200, height: 1200 })
